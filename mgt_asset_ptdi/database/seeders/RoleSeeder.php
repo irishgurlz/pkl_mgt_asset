@@ -18,38 +18,38 @@ class RoleSeeder extends Seeder
     
 
         $karyawan = Employee::create([
-            'nik' => '130013',
-            'nama' => 'Edy Prasetyo',
+            'nik' => '123456',
+            'nama' => 'Sam Smith',
             'kode_org' => 'HD0001',
             'kode_jabatan' => 1,
         ]);
 
         $karyawan->actors()->create([
-            'nik' => '130013',
-            'password' => bcrypt('130013'),
+            'nik' => '123456',
+            'password' => bcrypt('123456'),
             'role' => 'karyawan',
         ]);
 
         $karyawan = Employee::create([
-            'nik' => '140105',
-            'nama' => 'Fani Permana Putra',
+            'nik' => '098765',
+            'nama' => 'John Doe',
             'kode_org' => 'HD0001',
             'kode_jabatan' => 1,
         ]);
 
         $karyawan->actors()->create([
-            'nik' => '140105',
-            'password' => bcrypt('140105'),
+            'nik' => '098765',
+            'password' => bcrypt('098765'),
             'role' => 'karyawan',
         ]);
 
         $admin = Admin::create([
-            'nama' => 'Fani Permana Putra',
+            'nama' => 'John Doe',
         ]);
 
         $admin->actors()->create([
-            'nik' => '140105',
-            'password' => bcrypt('140105'),
+            'nik' => '098765',
+            'password' => bcrypt('098765'),
             'role' => 'admin',
         ]);
     

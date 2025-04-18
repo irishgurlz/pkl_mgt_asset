@@ -111,9 +111,9 @@ class DatabaseSeeder extends Seeder
         ]);
         
         $details = [
-            ['nomor_penyerahan' => 'PN123', 'nomor_asset' => 'AS123', 'nomor_it' => null, 'tanggal' => '2025-02-08', 'deskripsi' => '-', 'file' => 'dokumen/1740112700_LEMBAR PENGESAHAN INDUSTRI_2501...', 'nik' => '140105', 'lokasi' => 'IT Lantai 1', 'status_pengalihan' => 0, 'status_pengajuan' => '0', 'deskripsi_pengajuan' => null],
-            ['nomor_penyerahan' => 'PN123', 'nomor_asset' => 'AS124', 'nomor_it' => null, 'tanggal' => '2025-02-06', 'deskripsi' => '-', 'file' => 'dokumen/1740112700_LEMBAR PENGESAHAN INDUSTRI_2501...', 'nik' => '140105', 'lokasi' => 'IT Lantai 1', 'status_pengalihan' => 0, 'status_pengajuan' => '0', 'deskripsi_pengajuan' => null],
-            ['nomor_penyerahan' => 'PN123', 'nomor_asset' => 'AS125', 'nomor_it' => null, 'tanggal' => '2025-02-07', 'deskripsi' => '-', 'file' => 'dokumen/1740112700_LEMBAR PENGESAHAN INDUSTRI_2501...', 'nik' => '130013', 'lokasi' => 'IT Lantai 2', 'status_pengalihan' => 0, 'status_pengajuan' => '0', 'deskripsi_pengajuan' => null],
+            ['nomor_penyerahan' => 'PN123', 'nomor_asset' => 'AS123', 'nomor_it' => null, 'tanggal' => '2025-02-08', 'deskripsi' => '-', 'file' => 'dokumen/1740112700_LEMBAR PENGESAHAN INDUSTRI_2501...', 'nik' => '098765', 'lokasi' => 'IT Lantai 1', 'status_pengalihan' => 0, 'status_pengajuan' => '0', 'deskripsi_pengajuan' => null],
+            ['nomor_penyerahan' => 'PN123', 'nomor_asset' => 'AS124', 'nomor_it' => null, 'tanggal' => '2025-02-06', 'deskripsi' => '-', 'file' => 'dokumen/1740112700_LEMBAR PENGESAHAN INDUSTRI_2501...', 'nik' => '098765', 'lokasi' => 'IT Lantai 1', 'status_pengalihan' => 0, 'status_pengajuan' => '0', 'deskripsi_pengajuan' => null],
+            ['nomor_penyerahan' => 'PN123', 'nomor_asset' => 'AS125', 'nomor_it' => null, 'tanggal' => '2025-02-07', 'deskripsi' => '-', 'file' => 'dokumen/1740112700_LEMBAR PENGESAHAN INDUSTRI_2501...', 'nik' => '123456', 'lokasi' => 'IT Lantai 2', 'status_pengalihan' => 0, 'status_pengajuan' => '0', 'deskripsi_pengajuan' => null],
         ];
         
         // Insert ke distribution_detail dan history
@@ -145,7 +145,7 @@ class DatabaseSeeder extends Seeder
                 'tanggal'            => '2025-02-01',
                 'deskripsi'          => '-',
                 'file'               => 'dokumen/1740112792_LEMBAR PENGESAHAN INDUSTRI_2501...',
-                'nik'                => $i % 2 == 0 ? '140105' : '130013',
+                'nik'                => $i % 2 == 0 ? '098765' : '123456',
                 'lokasi'             => 'IT Lantai 1',
                 'status_pengalihan'  => 0,
                 'status_pengajuan'   => '0',

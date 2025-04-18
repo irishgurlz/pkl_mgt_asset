@@ -15,7 +15,7 @@ class AssetEmployeeSeeder extends Seeder
         AssetEmployee::insert([
             [
                 'nomor_asset' => 'ASSET001',
-                'nik' => '130013', 
+                'nik' => '123456', 
                 'lokasi' => 'Jakarta', 
                 'nomor_it' => 'DEV001', 
                 'status_pengalihan' => 0, 
@@ -25,7 +25,7 @@ class AssetEmployeeSeeder extends Seeder
 
             // [
             //     'nomor_asset' => 'ASSET002',
-            //     'nik' => '130013', 
+            //     'nik' => '123456', 
             //     'lokasi' => 'Jakarta', 
             //     'nomor_it' => 'DEV001', 
             //     'status_pengalihan' => 1, 
